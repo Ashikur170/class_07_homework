@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*----Index Page Design----*/
+.header{
+	background-color: #dff9fb;
+	padding: 20px 0;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	height: 80px;
+	float: left;
+}
+.heading{
+	float: right;
+}
+.content{
+	background-color: #95afc0;
+	padding: 50px 0;
+}
+.blog{
+	width: 45%;
+	float: left;
+	background-color: #f6e58d;
+	padding: 10px;
+	min-height: 200px;
+}
+.contact{
+	width: 45%;
+	float: right;
+	background-color: #ffbe76;
+	padding: 10px;
+	min-height: 200px;
+}
+.content_heading,
+.contact_content{
+	text-align: center;
+}
+.service{
+	background-color: #ffeaa7;
+	padding: 50px 0;
+}
+.brand, .design, .development, .model{
+	width: 22.5%;
+	float: left;
+	padding: 10px;
+	min-height: 300px;
+	text-align: center;
+}
+.brand{
+	background-color: #a29bfe;
+}
+.design{
+	background-color: #6c5ce7;
+}
+.development{
+	background-color: #74b9ff;
+}
+.model{
+	background-color: #0984e3;
+}
+.footer{
+	background-color: #fd79a8;
+	min-height: 100px;
+}
+.footer_content{
+	text-align: center;
+}
+

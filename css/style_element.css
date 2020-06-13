@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.colspan_example table, .colspan_example th, .colspan_example td{
+	border: 1px solid black;
+}
+.colspan_example table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+th, td{
+	padding: 5px;
+}
+.rowspan_example table, .rowspan_example th, .rowspan_example td{
+	border: 1px solid black;
+}
+.rowspan_example table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+.colspan_example{
+	width: 45%;
+	float: left;
+	background-color: #fed330;
+	padding: 10px;
+}
+.rowspan_example{
+	width: 45%;
+	float: right;
+	background-color: #fd9644;
+	padding: 10px;
+}
+iframe{
+	border: 2px solid red;
+	padding: 3px;
+}
